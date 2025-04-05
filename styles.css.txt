@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.hero {
+    background-color: #f2e8e1;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #b02e2e;
+}
+
+.cta-button {
+    background-color: #b02e2e;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #111;
+    color: white;
+}
+
+.products, .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.product, .service {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product img, .service img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}

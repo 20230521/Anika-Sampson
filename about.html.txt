@@ -1,0 +1,51 @@
+about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Mon Chérie Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Mon Chérie Bakery</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products & Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h1>About Us</h1>
+        <p>Mon Chérie Bakery was founded with the mission to provide high-quality, luxurious pastries to our community. We believe that the finest ingredients and skilled craftsmanship result in unforgettable baked goods.</p>
+
+        <h2>Meet the Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member">
+                <h3>John Doe</h3>
+                <p>Founder & Head Baker</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Team Member">
+                <h3>Jane Smith</h3>
+                <p>Pastry Chef</p>
+            </div>
+        </div>
+
+        <h2>Our Mission</h2>
+        <p>To create luxury baked goods that are accessible to everyone, whether it's a special occasion or an everyday treat.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mon Chérie Bakery | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Chérie Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Mon Chérie Bakery</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products & Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <img src="hero-image.jpg" alt="Delicious pastries and cakes" class="hero-image">
+        <div class="hero-text">
+            <h1>Welcome to Mon Chérie Bakery</h1>
+            <p>Indulge in luxury with our handcrafted sweets</p>
+            <a href="products.html" class="cta-button">Order Now</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="service1.jpg" alt="Custom Cakes">
+            <h3>Custom Cakes</h3>
+            <p>Perfectly designed cakes for every occasion.</p>
+            <a href="products.html" class="cta-button">Learn More</a>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Fresh Pastries">
+            <h3>Fresh Pastries</h3>
+            <p>Indulge in our freshly baked pastries.</p>
+            <a href="products.html" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mon Chérie Bakery | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

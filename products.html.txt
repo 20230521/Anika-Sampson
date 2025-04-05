@@ -1,0 +1,47 @@
+products.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products & Services - Mon Chérie Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Mon Chérie Bakery</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products & Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <h1>Our Products</h1>
+        <div class="product">
+            <img src="product1.jpg" alt="Custom Wedding Cake">
+            <h3>Custom Wedding Cakes</h3>
+            <p>Elegant, custom-designed cakes for your special day.</p>
+            <p>$200</p>
+            <a href="order.html" class="cta-button">Order Now</a>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Pastry Box">
+            <h3>Pastry Box</h3>
+            <p>A selection of our finest pastries, perfect for any occasion.</p>
+            <p>$50</p>
+            <a href="order.html" class="cta-button">Order Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mon Chérie Bakery | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
